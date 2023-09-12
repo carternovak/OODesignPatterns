@@ -1,0 +1,8 @@
+3.27 <p>
+Originally the solution code provided by the book was incorrect and the assertion throws error when executing the code. <p>
+The code was changed to adding count before the elements.length == count condition in the add function, because the count was inaccurate. <p>
+Adding before and after variables made it easier to track if the assertion was performing correctly. <p>
+"(tail - head - count) % elements.length == 0" is an invariant because count gets incremented one and so does tail, 
+cancelling out the additions and creating the same result: "(tail - head - count) % elements.length == 0" <p>
+
+
