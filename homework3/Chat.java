@@ -1,8 +1,8 @@
 public class Chat {
     public static void main(String[] args) {
-        User a = new User("Adrian");
-        User b = new User("Ari");
-        User c = new User("Rebekha");
+        User a = new User("Bob");
+        User b = new User("Carter");
+        User c = new User("John");
         a.addObserver(b);
         a.addObserver(c);
         b.addObserver(a);
