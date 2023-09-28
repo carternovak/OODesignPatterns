@@ -1,0 +1,164 @@
+Creational Design Patterns
+•	Simple Factory
+  o	Definition: 
+    	Provides an interface for creating objects but delegates the responsibility of instantiating concrete classes to a separate factory class.
+  o	Key Points:
+    	Introduces a central factory class to create objects.
+    	Clients interact with the factory rather than creating objects directly.
+    	Helps encapsulate the object creation process and decouples clients from concrete class implementations.
+•	Factory Method
+  o	Definition: 
+    	Defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
+  o	Key Points:
+    	Provides an abstract method for creating objects.
+    	Subclasses implement this method to produce objects of specific types.
+•	Abstract Factory
+  o	Definition: 
+    	Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+  o	Key Points:
+    	Defines a set of related factory methods for creating objects.
+    	Ensures the created objects are compatible and part of a family.
+•	Prototype
+  o	Definition: 
+    	Creates new objects by copying an existing object, known as the prototype.
+  o	Key Points:
+    	Reduces the cost of creating objects by cloning existing ones.
+    	Useful when object initialization is expensive.
+•	Builder
+  o	Definition: 
+    	Separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
+  o	Key Points:
+    	Provides a step-by-step approach to building complex objects.
+    	Allows for the construction of different variations of the same object.
+•	Singleton
+  o	Definition: 
+    	Ensures a class has only one instance and provides a global point of access to that instance.
+  o	Key Points:
+    	Guarantees a single instance of a class.
+    	Provides a global point of access to that instance.
+
+Structural Design Patterns
+•	Object Pool
+  o	Definition: 
+    	Manages a pool of reusable objects. It aims to improve performance and resource management by reusing objects rather than creating and destroying them frequently.
+  o	Key Points:
+    	Maintains a pool of initialized objects ready for use.
+    	Clients request objects from the pool and return them when done.
+    	Reduces the overhead of object creation and destruction, especially for costly resources.
+•	Adapter
+  o	Definition: 
+    	Allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
+  o	Key Points:
+    	Acts as a bridge between two incompatible interfaces.
+    	Makes classes work together that wouldn't otherwise due to interface mismatches.
+•	Bridge
+  o	Definition: 
+    	Separates an object’s abstraction from its implementation, allowing both to vary independently.
+  o	Key Points:
+    	Useful when you want to avoid a permanent binding between an abstraction and its implementation.
+    	Promotes flexibility in terms of changing both abstraction and implementation.
+•	Composite
+  o	Definition: 
+    	Composes objects into tree structures to represent part-whole hierarchies. Clients can treat individual objects and compositions of objects uniformly.
+  o	Key Points:
+    	Represents objects and their compositions hierarchically.
+    	Enables clients to work with individual objects and compositions of objects in a unified way.
+•	Decorator
+  o	Definition: 
+    	Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+  o	Key Points:
+    	Allows adding behavior to individual objects, either statically or dynamically.
+    	Follows the "Open/Closed" principle by allowing extension without modifying the existing code.
+•	Façade
+  o	Definition: 
+    	The Facade Pattern is a structural pattern that provides a simplified, higher-level interface to a set of interfaces in a subsystem. It hides the complexities of the subsystem and makes it easier for clients to interact with it.
+  o	Key Points:
+    	Acts as a simplified interface to a complex subsystem.
+    	Encapsulates the subsystem's functionality and provides a single entry point.
+    	Improves code readability and reduces the coupling between clients and the subsystem.
+•	Flyweight
+  o	Definition: 
+    	Minimizes memory usage or computational expenses by sharing as much as possible with similar objects.
+  o	Key Points:
+    	Commonly used for performance optimization.
+    	Divides objects into intrinsic and extrinsic states to share common data.
+•	Proxy
+  o	Definition: 
+    	Provides a surrogate or placeholder for another object to control access to it.
+  o	Key Points:
+    	Acts as a wrapper for another object to control access, often for lazy initialization, access control, or logging.
+
+Behavioral Design Patterns
+•	Null Object
+  o	Definition: 
+    	Provides an object as a surrogate for the lack of an object of a given type. It allows for the graceful handling of null references without causing null pointer exceptions.
+  o	Key Points:
+    	Introduces a "null" object that implements the same interface as real objects.
+    	Clients can use null objects without checking for null references.
+    	Prevents null pointer exceptions and simplifies error handling.
+•	State
+  o	Definition: 
+    	Allows an object to alter its behavior when its internal state changes. The object appears to change its class.
+  o	Key Points:
+    	Represents states as separate classes.
+    	Allows the context object to switch between states, delegating behavior accordingly.
+•	Template Method
+  o	Definition: 
+    	Defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+  o	Key Points:
+    	Provides a common algorithm structure with customizable steps.
+    	Enforces a certain order of operations within the algorithm.
+•	Observer
+  o	Definition: 
+    	Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+  o	Key Points:
+    	Allows objects to subscribe and receive updates from another object.
+    	Decouples the subject (publisher) from its observers (subscribers).
+•	Interpreter
+  o	Definition: 
+    	Provides a way to evaluate language grammar or expressions. It defines a grammar for the language and an interpreter to interpret the grammar.
+  o	Key Points:
+    	Represents grammar rules as objects.
+    	Provides a way to interpret sentences or expressions in a language.
+•	Chain of Responsibility
+  o	Definition: 
+    	Passes a request along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+  o	Key Points:
+    	Decouples senders and receivers of requests.
+    	Allows multiple objects to handle a request without explicitly specifying the receiver.
+•	Memento
+  o	Definition: 
+    	Captures and externalizes an object's internal state so that the object can be restored to this state later.
+  o	Key Points:
+    	Allows an object to be restored to a previous state.
+    	Typically used for implementing undo mechanisms.
+•	Visitor
+  o	Definition: 
+    	Represents an operation to be performed on the elements of an object structure. It lets you define a new operation without changing the classes of the elements on which it operates.
+  o	Key Points:
+    	Allows adding new operations without modifying the classes of the elements being operated upon.
+    	Encapsulates operations as visitor objects that "visit" elements in a structure.
+•	Mediator
+  o	Definition: 
+    	Defines an object that centralizes communication between other objects. It promotes loose coupling by keeping objects from referring to each other explicitly.
+  o	Key Points:
+    	Reduces dependencies between components by introducing a mediator.
+    	Centralizes complex communication logic.
+•	Iterator
+  o	Definition: 
+    	Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+  o	Key Points:
+    	Separates the traversal of a collection from the collection itself.
+    	Allows multiple iterations over the same collection simultaneously.
+•	Command
+  o	Definition: 
+    	Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations.
+  o	Key Points:
+    	Decouples the sender of a request from its receiver.
+    	Enables the creation of composite commands and support for undo/redo functionality.
+•	Strategy
+  o	Definition: 
+  	Defines a family of algorithms, encapsulates each one, and makes them interchangeable. It allows the client to choose the appropriate algorithm at runtime.
+  o	Key Points:
+    	Encapsulates algorithms in separate classes.
+    	Provides flexibility to change algorithms without altering the client's code.
