@@ -1,0 +1,7 @@
+After running the Singleton application, it is apparent that even though two separate instances of MinisterForMagic's are made with different information. 
+Since the first minister created was Cornelius Fudge, attempting to draw information on any other minister will return Cornelius. 
+When retiring instances of MinisterForMagic's and reinstantiated minister 2 "Pius Thicknesse" you are now able to access the information of that object. 
+And to test this I attempted to reinitialize minister 1 as Cornelius Fudge and print out both ministers but only Pius Thicknesse shows.
+
+The Singleton Design Pattern highlights only allowing one object to be created but also shared amongst the application. 
+More objects created after the first object will share the information of the first object.
