@@ -1,0 +1,3 @@
+My interpretation of the code provided for the Facade Design pattern is that these paths created for the Built-In Floo Network act as facades 
+to the more in detail and complicated specific locations. The path contains neighborhoods that group certain locations together. 
+Instead of traveling to the location you can travel along the path created that has neighborhoods of which may contain the location. 
