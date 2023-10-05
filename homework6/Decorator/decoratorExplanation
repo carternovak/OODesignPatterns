@@ -1,0 +1,3 @@
+The third delivery message highlights the decorator pattern by implementing both a delivery type and delivery through Hagrid. 
+These decorators can be applied in any combination on an object since all are using the same MessageDelivery interface. 
+The decorators offer a way to use multiple different types of delivery methods without creating a class for each specific combination. (Which would have been done through inheritance)
