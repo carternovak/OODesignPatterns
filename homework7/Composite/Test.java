@@ -9,7 +9,7 @@ public class Test {
         obl.setSchoolGraduatedFrom(
                             WizardTraits.SchoolGraduatedFrom.Hogwarts);
         obl.setWizardryStrength(WizardTraits.WizardryStrength.Charms);
-        obl.alterMuggleMemory( "Aunt Marge" );                       //(A)
+        //obl.alterMuggleMemory( "Aunt Marge" );                       //(A)
     	
         Auror auror = new Auror( "Bootsie", "Bangerbolt" );
         auror.setSchoolGraduatedFrom( 
