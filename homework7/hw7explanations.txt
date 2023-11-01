@@ -1,0 +1,13 @@
+Adapter
+The Adapter Pluggable program highlights the adapter design pattern as it presents you with the option to choose between two responses. 
+The two responses are from two different incompatible interfaces though, Class and Object. 
+AdapterPluggable allows both to collaborate in the same program using the design pattern.
+
+Bridge
+The Bridge design pattern divides a large class or closely related classes into abstraction and implementation. 
+This is shown with Goblin, Dementor, HouseElf, and Humanoid which are all closely related classes (types of beings) split into abstraction and implementation files. 
+These can be developed independently of each other and then called on in the main method of MinistryOfMagic.
+
+Composite
+The Composite design pattern composes objects into tree structures and then work with these as individual objects. 
+This can be seen by the Obliviator, MinisterForMagic, DepartmentHead, and Auror as they can be considered leaves of the Wizard class as they are wizards that can get appointed to these structures.
