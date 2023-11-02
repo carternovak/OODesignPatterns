@@ -31,9 +31,9 @@ public class PortraitMakerAssignment implements PortraitBorderChoices {
              new PortraitMakerAssignment("Basil Fronsac", redborder );
         job2.portrait.displayPortrait();
         
-        //PortraitMakerAssignment job3 = 
-        //     new PortraitMakerAssignment("Ambrose Swott", redborder );
-        //job3.portrait.displayPortrait();
+        PortraitMakerAssignment job3 = 
+             new PortraitMakerAssignment("Ambrose Swott", redborder );
+        job3.portrait.displayPortrait();
         
         PortraitMakerAssignment job4 = 
             new PortraitMakerAssignment("Phineas Nigellus Black", 
