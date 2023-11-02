@@ -1,0 +1,19 @@
+Iterator
+The Iterator design pattern lets you traverse elements of a collection without exposing its representation. 
+This can be shown by the MagicCollection, MagicList, and MagicSet classes that will be used to create the different types of elements (different representations). 
+After the collection is initialized the iterator can traverse through all elements of different types and places each person in a house based off preference of themselves and others.
+
+Observer
+The observer design pattern notifies an observer object when events happen to the object they are observing. 
+This design pattern is highlighted through the Dark Lord, Wormtail and Malfoy interaction. 
+When Wormtail or Malfoy is registered with the observable, the amount of followers the Dark Lord has is printed, and the same when unregistering. 
+If the run is conducted with observers/followers currently present, the dark lord sends a message to each other with a request.
+
+Strategy
+The strategy design pattern puts each algorithm of a family of algorithms into a separate class and makes their objects interchangeable. 
+The program that demonstrates this pattern shows multiple strategies are used to complete a task, each strategy shares method but obviously a different result of the methods are printed. 
+Depending on which strategy is chosen and the steps taken in the task determines whether the person completed the task or not.
+
+Template Method
+The template method design pattern defines a skeleton of an algorithm in the superclass and allows subclasses to override certain steps without changing structure. 
+In the template method program, EndOfSummerStories is the skeleton for the message it prints, and subclasses EndOfSummerYear1 and EndOfSummerYear2 are subclasses that can override and change the message specific to the year you choose (whether you are at year 1, or returning for year 2; the return message is different)
