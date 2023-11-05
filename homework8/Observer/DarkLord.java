@@ -39,7 +39,7 @@ public class DarkLord  extends Thread implements Observable  {
     }
     private synchronized void notifyObservers() {
         int this_mesg_id = messageID++;		
-        Iterator<Observer> it = (Iterator<Observer>) observers.iterator();
+        java.util.Iterator<Observer> it = observers.iterator();
         while (it.hasNext()) {
             Observer observer = it.next();
             try {

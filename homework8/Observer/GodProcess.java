@@ -21,7 +21,7 @@ public class GodProcess extends Thread {
 		 
         ((Thread) voldemort).start();
 		
-        Iterator<Observer> it = (Iterator<Observer>) observers.iterator();
+        java.util.Iterator<Observer> it = observers.iterator();
         while (it.hasNext()){
             ((Thread) it.next()).start();
         }

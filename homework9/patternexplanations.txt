@@ -1,0 +1,20 @@
+Chain Of Responsibility
+The Chain of Responsibility design pattern passes requests along a chain of handlers, where each handler decides to process the request or pass it to the next handler. 
+This pattern is especially shown in the violations Angelina, Dracy, Viktor, and Fred are facing. 
+Each person’s violation gets handed over to either Referee, Teacher, Deputy Headmaster, or Headmaster depending on who can process the violation (like a chain of handlers), 
+if someone cannot process the violation it will get passed on to a higher authority, or not resolved at all.
+
+Flyweight
+Flyweight is a design pattern that lets you fit more objects into the amount of RAM by sharing common parts of state between objects. 
+When adding images to the local flyweight image store from image manager, it reduces memory when retrieving another of that image from that store, since it no longer has to come from the image manager as well. 
+This image does not have to be created or added again to use it. Ex: Ambrose Swott’s image was used in two portraits with two different borders. 
+
+Proxy
+Proxy is a design pattern that lets you provide a substitute or placeholder for another object, while controlling access to the original object. 
+This is shown by the program where the proxy is Quirrell and Voldemort, the DarkLord, is commanding his proxy to steal the Philosopher’s Stone. 
+The proxy attempts to gain control of the original object (Philosophers Stone) and Voldemort is attempting access through his proxy, Quirrell.
+
+Mediator
+Mediator is a design pattern that reducing chaotic dependencies between objects and restricts communication between them to only through a mediator object. 
+In this program, the MinistryOfMagicTrialMediator acts as the mediator object and takes in all communication from defenses and prosecutors. 
+That and the state of the trial are all directly communicated to the mediator object which in turn provides information from other parts of the trial. Mediator in this sense is similar to a judge.
