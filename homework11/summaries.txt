@@ -1,0 +1,23 @@
+Simple Factory
+The Simple Factory design pattern is a class that returns objects of different types, based on the given input. 
+This is shown by running the program and creating two gearboxes using the same GearboxFactory class but is of different types, manual and automatic.
+
+Abstract Factory
+The Abstract Factory design pattern that lets you produce families of related objects, often seen as the pattern for Factory of factories (refer to simple factory). 
+Abstract factory is demonstrated as a factory of factories in the program where the items broomstick, magic wand, and owl have their own factory classes extended off 
+the Factory class, and the FactoryStore class contains all Factories of the items, which can then be shopped for using the interface in the terminal printed by the main method in DiagonAlleyRetailer (the shop).
+
+Factory Method
+The Factory Method design pattern provides an interface for creating objects in a superclass but allowing subclasses to alter the type of object. 
+This is shown by the various levels for magic wands and depending on the skill level chosen will determine which wand core you will receive, keeping the same owner.
+
+Builder
+The Builder design pattern lets you construct complex objects step by step, allowing for different types and representations of an object using the same construction 
+code. This is demonstrated by the programming showing the steps of making potions, and how these construction steps can apply to different potions. 
+The steps include acknowledging which potion is requested to be made, determining ingredients needed and available, gathering ingredients, and then making the potion.
+
+Prototype
+The Prototype design pattern lets you copy existing objects without making the code dependent on their classes. 
+This is shown by the copying of the Dragon of kind Chinese Fireball type (distinguishing it as a new dragon type, 
+then displaying the attributes of the first Chinese Fireball dragon) but with different attributes, although sharing similar ones. 
+These attributes can be modified without changing the original code dependent on the class.
