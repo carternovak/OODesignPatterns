@@ -1,0 +1,18 @@
+Command
+The Command design pattern turns a request into a single object that contains the information about that request, but now allows you to pass requests as method 
+arguments. The command is to protect harry potter in the program but there are multiple options of doing so and the same command is carried out three different ways.
+
+Interpreter
+The Interpreter design pattern defines the grammar of a particular language in a way which can be evaluated by the interpreter itself. 
+This is shown by the program interpreting the phrases in the magic phrases text file and printing a tree of speech labels (Verb, noun, pronoun, etc.) 
+corresponding to the individual words in the phrase.
+
+Memento
+The Memento design pattern lets you save and restore the previous state of an object without revealing its implementation details. 
+In the program storylines are saved to the memento and can be restored for later use. 
+The memento pattern is shown when the latest storyline is printed from the saved states for storylines 1 and 4.
+
+State
+The State design pattern lets an object change its behavior when its state changes. 
+This is shown in the program by when creating a state for DADA Year 2 and changing its state to DADA Year 3 and subsequently its behaviors to that of DADA Year 3, 
+teacher to Remus Lupin and background to null.
