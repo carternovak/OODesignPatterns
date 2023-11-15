@@ -1,0 +1,6 @@
+Visitor
+The Visitor design pattern lets you separate algorithms from the objects they operate on, moving the operational logic from the objects to a separate class. 
+In the program there is a visitor class for printing house names and wizard names. Each wizard is instantiated as a different object (Obliviator, Auror, Department Head, Minister For Magic). 
+The visitor classes visit the object that is passed through, and have a different visit method depending on the object type. 
+The visitor can see all wizards and their types, and houses they are assigned to, printing each of them when the methods are called. 
+The visitor house class operates in the same way as the visitor wizard class.
